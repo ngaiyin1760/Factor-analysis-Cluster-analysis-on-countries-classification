@@ -13,7 +13,7 @@ import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering
 
 #set working directory
-os.chdir('C:/Users/Zedric Cheung/Desktop/Towards Data Science/5_Classification of economies in world')
+os.chdir('YOUR OWN FOLDER')
 
 #open raw data donwloaded from World Bank
 data = pd.read_csv('raw data selected.csv')

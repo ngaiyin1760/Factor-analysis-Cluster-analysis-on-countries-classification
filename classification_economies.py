@@ -136,7 +136,7 @@ df_final_std=(df_final.T-df_final.T.mean())/df_final.T.std()
 
 #Create dendrogram
 dendrogram = sch.dendrogram(sch.linkage(df_final_std, method='ward'))
-plt.axhline(y=10, color='r', linestyle='--')
+plt.axhline(y=11, color='r', linestyle='--')
 
 # create clusters
 hc = AgglomerativeClustering(n_clusters=12, affinity = 'euclidean', linkage = 'ward')
